@@ -1,0 +1,23 @@
+/* место для вашего кода */
+@import url(./global.css);
+@import url(./header_styles.css);
+@import url(./main_styles.css);
+@import url(./footer_styles.css);
+
+.layout {
+    min-height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 293px;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    flex: 1 1 auto;
+}
